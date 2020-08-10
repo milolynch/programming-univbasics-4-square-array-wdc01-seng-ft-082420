@@ -1,7 +1,8 @@
 def square_array(array)
   sqr = []
   i = 0
-  for e in array
-    sqr[i] = (array[e].to_i) * (array[e].to_i)
+  while i < array.length
+    sqr[i] = (array[i].to_i) * (array[i].to_i)
+    i += 1
   end
 end
